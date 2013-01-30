@@ -26,7 +26,7 @@ javassistライブラリが必要．
 
 1. 新しいクラスを作る
 
-2. s.logger.StateLoggerを継承
+2. s.logger.StateLoggerを継承(いらないかも)
 
 3. ロギング大将クラスをs.logger.annotation.TargetClassアノテーションの引数に指定
 
@@ -48,9 +48,8 @@ public class Bank_Logger extends StateLogger {
 
 	//ロギング対象クラスと同じメソッドを定義
 	public void doOpen (String name, String passwd) {
-		//putメソッドで，Mapと同じ要領でロギングが行える
-		put("message","doOpenが呼ばれたよ");
-		put("nameの値",name);
+		//ログをとる処理を記述
+		System.out.println("doOpenがよばれたよ！");
 	}
 }
 ```
