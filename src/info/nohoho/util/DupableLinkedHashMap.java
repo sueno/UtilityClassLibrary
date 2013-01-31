@@ -1,4 +1,4 @@
-package s.util;
+package info.nohoho.util;
 
 import java.io.Serializable;
 import java.util.AbstractMap;

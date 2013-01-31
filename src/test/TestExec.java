@@ -1,6 +1,8 @@
 package test;
 import static org.junit.Assert.*;
 
+import info.nohoho.util.*;
+
 import java.util.Map;
 import java.util.Set;
 
@@ -8,7 +10,6 @@ import junit.framework.TestCase;
 
 import org.junit.Test;
 
-import s.util.*;
 
 
 public class TestExec extends TestCase{

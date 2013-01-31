@@ -1,4 +1,4 @@
-package s.refClass;
+package info.nohoho.refClass;
 
 import java.lang.reflect.Field;
 
